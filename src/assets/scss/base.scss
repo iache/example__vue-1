@@ -1,0 +1,26 @@
+@import "./var";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+
+    font: 16px/#{$--base-line-height} $--base-font-family;
+
+    color: $--base-color;
+}
+
+.container {
+    max-width: 1580px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.h2 {
+    font: 600 20px/1.25 $--secondary-font-family;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+}

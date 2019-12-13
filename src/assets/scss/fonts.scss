@@ -1,0 +1,22 @@
+$assets: './assets/fonts';
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-style: normal;
+    src: url("#{$assets}/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "SourceSansPro";
+    font-weight: normal;
+    font-style: normal;
+    src: url("#{$assets}/SourceSansPro-Regular.ttf");
+}
+
+@font-face {
+    font-family: "SourceSansPro";
+    font-weight: 600;
+    font-style: normal;
+    src: url("#{$assets}/SourceSansPro-SemiBold.ttf");
+}
