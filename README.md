@@ -1,4 +1,4 @@
-# joo-media-test
+# Example Vue #1
 
 ## Project setup
 ```
